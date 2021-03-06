@@ -14,11 +14,11 @@ Documentation: http://localizationsqllocalizer.readthedocs.io/en/latest/
 
 <strong>Basic Usage ASP.NET Core</strong>
 
-Add the NuGet package to the project.json file
+Add the NuGet package to the project.csproj file
 
 ```
 "dependencies": {
-        "Localization.SqlLocalizer": "2.0.6",
+        "Localization.SqlLocalizer": "3.0.0",
 ```
 
 Add the DbContext and use the AddSqlLocalization extension method to add the SQL Localization package.
